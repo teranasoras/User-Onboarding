@@ -24,7 +24,7 @@ return(
     <form className = 'formholder' onSubmit={Submit}>
         <div className = 'submitarea'>
         <h2>add a new user</h2>;
-        <button disabled={disabled}>Submit</button>;
+        <button id='submitbutton' disabled={disabled}>Submit</button>;
         <div className='errors'>
             <div>{errors.name}</div>
             <div>{errors.email}</div>
